@@ -1,11 +1,11 @@
 import "./sectionleft.css";
-import Cyrcle from "./Cyrcle/Cyrcle";
+import Circle from "./Circle/Circle";
 
 function Sectionleft() {
   return (
     <section className="Sectionleft">
       <h3 className="Your_Result">Your Result</h3>
-      <Cyrcle />
+      <Circle></Circle>
     </section>
   );
 }
