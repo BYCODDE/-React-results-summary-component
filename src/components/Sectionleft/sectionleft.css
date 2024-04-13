@@ -1,1 +1,10 @@
 /* .Sectionleft{} */
+
+
+.Your_Result {
+  color: var(--Light-Blue, #cac9ff);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
