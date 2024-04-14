@@ -26,7 +26,7 @@ function Skill() {
         </div>
       </div>
       <div className="Verbal">
-      <div className="verbal_underdiv">
+        <div className="verbal_underdiv">
           <img src={greenIcon} alt="greenIcon" />
           <span>Verbal</span>
         </div>
@@ -35,21 +35,14 @@ function Skill() {
         </div>
       </div>
       <div className="Visual">
-      <div className="visual_underdiv">
+        <div className="visual_underdiv">
           <img src={blueIcon} alt="blueIcon" />
           <span>Visual</span>
         </div>
         <div className="visual_underdiv2">
           73 <span>/ 100</span>
         </div>
-
-
       </div>
-
-
-
-
-
     </div>
   );
 }
