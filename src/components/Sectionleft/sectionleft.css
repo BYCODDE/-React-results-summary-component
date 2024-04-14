@@ -1,5 +1,9 @@
-/* .Sectionleft{} */
-
+.Sectionleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .Your_Result {
   color: var(--Light-Blue, #cac9ff);

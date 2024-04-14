@@ -1,0 +1,30 @@
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  flex-direction: column;
+  margin-top: 55px;
+}
+
+.main_score {
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+.under_score {
+  color: var(--Light-Blue, #cac9ff);
+  opacity: 0.5168;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
