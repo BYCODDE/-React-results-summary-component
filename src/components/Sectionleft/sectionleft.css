@@ -3,6 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 32px;
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+  );
+  width: 368px;
+  height: 512px;
 }
 
 .Your_Result {

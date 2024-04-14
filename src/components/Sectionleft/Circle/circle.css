@@ -9,7 +9,8 @@
   text-align: center;
   flex-direction: column;
   /* margin-top: 55px; */
-  margin-top: -55px;
+  /* margin-top: -55px; */
+  margin-top: -36px;
 }
 
 .main_score {
@@ -28,7 +29,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 5px;
 }
-.circle_div{
-  
+.circle_div {
+  margin-top: 35px;
+  margin-bottom: 28px;
 }
