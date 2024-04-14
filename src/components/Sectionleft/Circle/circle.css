@@ -8,9 +8,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
   flex-direction: column;
-  /* margin-top: 55px; */
-  /* margin-top: -55px; */
-  margin-top: -36px;
 }
 
 .main_score {
@@ -34,4 +31,5 @@
 .circle_div {
   margin-top: 35px;
   margin-bottom: 28px;
+  position: relative;
 }

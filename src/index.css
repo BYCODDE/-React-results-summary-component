@@ -7,4 +7,5 @@ body {
   height: 100vh;
   font-feature-settings: "clig" off, "liga" off;
   font-family: "Hanken Grotesk", sans-serif;
+  background: var(--Very-Light-blue, #ecf2ff);
 }
