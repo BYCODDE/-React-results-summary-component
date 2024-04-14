@@ -29,7 +29,9 @@
   padding: 20px;
 }
 .reaction_underdiv,
-.memory_underdiv {
+.memory_underdiv,
+.verbal_underdiv,
+.visual_underdiv {
   display: flex;
   gap: 15px;
 }
@@ -43,7 +45,9 @@
 }
 
 .reaction_underdiv2,
-.memory_underdiv2 {
+.memory_underdiv2,
+.verbal_underdiv2,
+.visual_underdiv2 {
   color: var(--Dark-Navy, #303b59);
   text-align: right;
   font-size: 18px;
@@ -53,7 +57,9 @@
 }
 
 .reaction_underdiv2 span,
-.memory_underdiv2 span {
+.memory_underdiv2 span,
+.verbal_underdiv2 span,
+.visual_underdiv2 span {
   opacity: 0.5;
 }
 
@@ -87,6 +93,13 @@
     #00bb8f
   );
 }
+.verbal_underdiv span {
+  color: var(--Green, #00bb8f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .Visual {
   border-radius: 12px;
   background: var(
@@ -98,4 +111,12 @@
     ),
     #1125d6
   );
+}
+
+.visual_underdiv span {
+  color: var(--Blue, #1125d6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

@@ -22,11 +22,34 @@ function Skill() {
           <span>Memory</span>
         </div>
         <div className="memory_underdiv2">
-          80 <span>/ 100</span>
+          92 <span>/ 100</span>
         </div>
       </div>
-      <div className="Verbal"></div>
-      <div className="Visual"></div>
+      <div className="Verbal">
+      <div className="verbal_underdiv">
+          <img src={greenIcon} alt="greenIcon" />
+          <span>Verbal</span>
+        </div>
+        <div className="verbal_underdiv2">
+          61 <span>/ 100</span>
+        </div>
+      </div>
+      <div className="Visual">
+      <div className="visual_underdiv">
+          <img src={blueIcon} alt="blueIcon" />
+          <span>Visual</span>
+        </div>
+        <div className="visual_underdiv2">
+          73 <span>/ 100</span>
+        </div>
+
+
+      </div>
+
+
+
+
+
     </div>
   );
 }
