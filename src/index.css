@@ -13,14 +13,20 @@ body {
 @media screen and (max-width: 768px) {
   body {
     height: 100%;
+    width: 100%;
   }
   main {
+    display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
   }
 
   .Sectionleft {
     width: 375px;
     height: 356px;
+    border-radius: 0px 0px 32px 32px;
   }
 
   .Your_Result {
@@ -37,9 +43,6 @@ body {
     height: 140px;
   }
 
-  /* .score {
-  } */
-
   .main_score {
     font-size: 56px;
   }
@@ -55,8 +58,33 @@ body {
 
   .great_p {
     font-size: 16px;
+    margin-top: 10px;
   }
 
   .Sectionright {
+    width: 100%;
+    height: 100%;
+  }
+  .Summary {
+    font-size: 18px;
+  }
+
+  .skills_div {
+    margin-top: 24px;
+  }
+
+  .reaction_underdiv span,
+  .memory_underdiv span,
+  .verbal_underdiv span,
+  .visual_underdiv span,
+  .reaction_underdiv2,
+  .memory_underdiv2,
+  .verbal_underdiv2,
+  .visual_underdiv2 {
+    font-size: 16px;
+  }
+
+  .main_button {
+    margin-top: 24px;
   }
 }
