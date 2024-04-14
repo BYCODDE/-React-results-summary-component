@@ -1,4 +1,11 @@
-/* .Sectionright{} */
+.Sectionright {
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  justify-content: space-between;
+}
 
 .Summary {
   color: var(--Dark-Navy, #303b59);
@@ -6,4 +13,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  /* margin-left: 40px;
+  margin-top: 38px; */
 }
