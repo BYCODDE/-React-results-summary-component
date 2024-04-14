@@ -9,3 +9,54 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   background: var(--Very-Light-blue, #ecf2ff);
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 100%;
+  }
+  main {
+    flex-direction: column;
+  }
+
+  .Sectionleft {
+    width: 375px;
+    height: 356px;
+  }
+
+  .Your_Result {
+    font-size: 18px;
+  }
+
+  .circle_div {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .circle_div img {
+    width: 140px;
+    height: 140px;
+  }
+
+  /* .score {
+  } */
+
+  .main_score {
+    font-size: 56px;
+  }
+
+  .under_score {
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .great {
+    font-size: 24px;
+  }
+
+  .great_p {
+    font-size: 16px;
+  }
+
+  .Sectionright {
+  }
+}
