@@ -10,8 +10,6 @@ body {
   background: var(--Very-Light-blue, #ecf2ff);
 }
 
-
-
 @media screen and (max-width: 768px) {
   #root {
     display: flex;
@@ -76,6 +74,7 @@ body {
   }
   .Summary {
     font-size: 18px;
+    margin-left: -28vh;
   }
 
   .skills_div {
@@ -98,7 +97,14 @@ body {
   }
 }
 
-
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 376px) {
+  main {
+    height: 100%;
+  }
+  .great_p {
+    margin-bottom: 40px;
+  }
+  .Summary {
+    margin-left: -32vh;
+  }
 }
